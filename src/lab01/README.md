@@ -12,7 +12,8 @@
 Задание 3
 
 
-<img width="767" height=ие"269" alt="зад 3" src="https://github.com/user-attachments/assets/45c12393-1e92-4e5e-8d56-1ea11331176b" />
+<img width="767" height="269" alt="зад 3" src="https://github.com/user-attachments/assets/98552ce4-1166-4408-9d75-961aaeb22b87" />
+
 
 
 Задание 4
