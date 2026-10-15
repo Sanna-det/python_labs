@@ -109,6 +109,26 @@ if __name__ == "__main__":
     main()```
 
 
+Примеры работы: Обычный режим вывода
+
+
+<img width="758" height="111" alt="img07" src="https://github.com/user-attachments/assets/0016d020-5426-4df2-b128-130053b38745" />
+
+
+Табличный режим вывода:
+
+
+<img width="817" height="182" alt="img08" src="https://github.com/user-attachments/assets/1adc8def-f163-4c8a-8b95-ee112b27e4f4" />
+
+
+
+
+
+
+
+
+
+
 
 
 
