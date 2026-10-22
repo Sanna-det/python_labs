@@ -6,7 +6,8 @@
  1.Функция read_text
 Функция читает файл целиком и возвращает его содержимое в виде одной строки. По умолчанию используется кодировка UTF-8, но при необходимости можно передать другую кодировку, например encoding="cp1251"
 
-```def read_text(path: str | Path, encoding: str = "utf-8") -> str:
+```
+def read_text(path: str | Path, encoding: str = "utf-8") -> str:
     '''Считывает текст по указанному пути
 
     Args:
@@ -26,7 +27,8 @@
 Функция записывает строки в CSV-файл. Перед записью проверяется, что все строки имеют одинаковую длину. Если длины отличаются, вызывается ValueError.
 
 
-```def write_csv(rows: Iterable[Sequence], path: str | Path,
+```
+def write_csv(rows: Iterable[Sequence], path: str | Path,
               header: tuple[str, ...] | None = None) -> None:
     '''Записывает частоты слов в csv файл
     Args:
@@ -66,7 +68,8 @@
  3.Функция ensure_parent_dir
 Функция проверяет наличие родительской папки и создает ее вместе со всеми отсутствующими вложенными папками
 
-```def ensure_parent_dir(path):
+```
+def ensure_parent_dir(path):
     """Создаёт папку для файла, если её ещё нет."""
     Path(path).parent.mkdir(parents=True, exist_ok=True)
 ```
@@ -217,7 +220,8 @@ python3.12 -m src.lab04.text_report --in data/lab04/a.txt data/lab04/b.txt
 
 Отчет по каждому файлу
 
-```file,word,count
+```
+file,word,count
 data/lab04/a.txt,мир,1
 data/lab04/a.txt,привет,1
 data/lab04/b.txt,привет,2
