@@ -10,8 +10,16 @@
   
 Входные примеры находятся в каталоге data/lab05/samples/, а результаты конвертаций — в каталоге data/lab05/out/.
 
+
+
+
+
    Задание A — JSON ↔ CSV
+
+  
 Модуль json_csv.py содержит две функции.
+
+
 
 Функция json_to_csv
 
@@ -153,10 +161,16 @@ python -m src.lab05.json_csv
 При таком запуске создаются:
 
   data/lab05/out/people_from_csv.json;
+
+  
   data/lab05/out/people_from_json.csv.
 
+
+  
+
  Задание B — CSV → XLSX
- 
+
+
 Модуль csv_xlsx.py содержит функцию:
 
 ```
@@ -249,8 +263,11 @@ python -m src.lab05.csv_xlsx
 
 
  Обработка ошибок
+
  
 Входные функции явно сообщают об ошибках:
+
+
 
   FileNotFoundError — входной файл не найден;
 
