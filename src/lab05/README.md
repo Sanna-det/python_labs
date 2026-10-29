@@ -1,11 +1,16 @@
 Отчет по лабораторной работе №5 — JSON, CSV и XLSX
 
 Структура лабораторной работы
+
+
   src/lab05/json_csv.py — преобразование JSON в CSV и CSV в JSON;
+  
   src/lab05/csv_xlsx.py — преобразование CSV в XLSX.
+
+  
 Входные примеры находятся в каталоге data/lab05/samples/, а результаты конвертаций — в каталоге data/lab05/out/.
 
-  Задание A — JSON ↔ CSV
+   Задание A — JSON ↔ CSV
 Модуль json_csv.py содержит две функции.
 
 Функция json_to_csv
